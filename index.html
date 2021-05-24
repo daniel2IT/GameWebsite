@@ -9,13 +9,23 @@
 		*{
 		margin: 0; padding:0; box-sizing: border-box;
 		font-family: 'Mulish', sans-serif;}
-		.grand_parent{ width: 100vw; height:100vh;
-			background: #dfe6e9; color: #fff;}
+		.grand_parent
+		{
+			width: 100vw;
+		    height:100vh;
+
+			background-image: url('https://www.wallpaperup.com/uploads/wallpapers/2014/11/02/504796/3ee5818839d7b4e9c3995e578e1e7495.jpg');
+			background-repeat: no-repeat;
+			background-attachment: fixed; 
+			background-size: 100% 100%;
+		}
+
+	
 		h1{
 			font-size: 4rem;
 			padding: 20px 0;
 			text-align: center;
-			color: #000;
+			color: rgb(255, 255, 255);
 		}
 		p{
 			text-align: center;
@@ -30,33 +40,73 @@
 			box-shadow: 0 0 20px #bac3c3;
 			flex:1 1 200px;
 			margin: 20px;
+			
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			width: 50%;
 		}
 		
 		.child:first-child{
-			background: #ffbe76;
+			background: #ff0000;
 		}
-		.child:last-child{
-			background: #ff7979;
+
+		.avatar {
+		vertical-align: middle;
+		width: 100px;
+		height: 100px;
+		border-radius: 50%;
 		}
-		@media (max-width: 768px){
-			.grand_parent{height:auto; }
+
+
+		.right-top-avatar-container
+		{
+			position: relative;
+		}
+
+		.topright {
+			position: absolute;
+			top: 8px;
+			right: 16px;
+			font-size: 18px;
+		}
+
+		@media (max-width: 850px){
+			.child{ 
+				flex: none;
+				width: 100%;
+				}
+
+				.avatar {
+					width: 70px;
+					height: 70px;
+					}
 		}
 		</style>
 	</head>
 	<body>
+		<div class="right-top-avatar-container">
+			
+				
+
+		</div>
 		<div class="grand_parent">
-			<h1> Services </h1>
+			<h1> Demo </h1>
 			<div class="parents">
 				<div class="child">
-					<p>Thapa Technical</p>
+					<p>Demo</p>
+				
+
 				</div>
 				<div class="child">
-					<p>Thapa Technical</p>
+					<p>Demo</p>
+					
 				</div>
-				<div class="child">
-					<p>Thapa Technical</p>
-				</div>
+		
 			</div>
 		</div>
-	</body>
-</html>
+		</body>
+
+
+
+	</html>
