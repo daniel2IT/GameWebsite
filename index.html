@@ -1,186 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <!-- pateikia, generuoja, valdo puslapio matmenis ir mastelį.-->
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>КОСМОС</title>
-
-        <meta http-aquiv="X-UA-Compatible" content="IE=edge" />
-        <!-- Normalaizeris turi visada buti pajungtas pries kitus stilius ...
-  
-  Standartizacija, bei normalizacija stiliu, tai reikalinga kad kiekvienas brauzeris atvaizduotu musu produkta(stilius) taip kaip reikiant
-  -->
-
-
-        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" />
-        <!-- Fono keitimas per https://fonts.google.com/  bei stiliu pridejimas-->
-        <link href="https://fonts.googleapis.com/css2?family=Vast+Shadow&display=swap" rel="stylesheetva" />
-        <link href='https://fonts.googleapis.com/css?family=Amethysta' rel='stylesheet' type='text/css'>
-        <link href='https://fonts.googleapis.com/css?family=Caesar+Dressing' rel='stylesheet' type='text/css'>
-
-        
-        <!-- paprasta piktograma prie musu tinklapio -->
-        <link rel="shortcut icon" type="image/x-icon" href="img/favicon/favicon.ico" />
-
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous" />
-
- 
-
-        <!-- CSS Bootstrap-->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-
-        <link rel="stylesheet" href="css/main.css" />
-        <link rel="stylesheet" href="css/footer.css" />
-         <link rel="stylesheet" href="css/menu.css" />
-
-    </head>
-    <body>
-        <!--
-                    Fullscreen Overlay Navigation Menu Bar
--->
-
-
-
-        <header>
-            <img src="img/logo/logo baseinas.png" class="logo" />
-            <input type="checkbox" id="nav-toggle" class="nav-toggle" />
-            <nav >
-                <ul class="d-flex">
-                    <li class="p-2 flex-fill"><a href="#">Home</a></li>
-                    <li class="p-2 flex-fill"><a href="#">About</a></li>
-                    <li class="p-2 flex-fill"><a href="#">Gallery</a></li>
-                    <li class="p-2 flex-fill"><a href="#">Contact</a></li>
-                </ul>
-            </nav>
-            <label for="nav-toggle" class="nav-toggle-label">
-                <span></span>
-            </label>
-        </header>
-
-        <!--
-                    HEADER
--->
-        <!-- cia bus foninis paveiksliukas -->
-        <div class="header" class="d-flex flex-wrap">
-          <img src="img/bg/bg-header.jpg" class="d-block w-100" alt="...">
-            <div class="header__title1">   <img src="img/text/KocMoc.gif" class="d-block w-100" alt="..."> </div>
-            <div class="header__citata1"></div>
-        </div>
-
-     
-
-        <!--
-                    PORTFOLIO
--->
-        <div class="portfolio" class="d-flex flex-wrap">
-                              <div class="overlay"  class="rounded-pill"></div>
-            <div class="container">
-                <div class="title">
-                    <b>Portfolio</b>
-                </div>
-
-                <div class="row-portfolio">
-
-
-                    <!--Tas dalykas reikalingas del to kad nepazeistu strukturos maketo -->
-
-                    <!-- Darbas su partfolio -->
-
-                    <div class="col-4-item">
-
-                        <div class="portfolio-item">
-                            <!-- vertikaliems tarpams-->
-                           <div class="container_Image"  class="rounded-pill">
-                            <div class="portfolio-item__img">
-                                <img src="img/portfolio/portfolio2.jpg" alt="About ME" width="400" height="267"  id="myDIV"  />
-
-                            </div>
-                             
-                          </div>
-                            <div class="portfolio-item__title">
-                                <a href="html/aboutme.html"> About me </a>
-                            </div>
-                            <div class="portfolio-item__text">
-                                <b> Short description about me </b>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <!-- // Darbas su partfolio -->
-
-                    <!-- Darbas su partfolio -->
-                    <div class="col-4-item">
-                        <div class="portfolio-item">
-                            <div class="portfolio-item__img">
-                                     <img src="img/portfolio/portfolio3.jpg" alt="Images" width="400" height="267"  id="myDIV1"/>
-                            </div>
-                            <div class="portfolio-item__title">
-                                <a href="html/feedback.html"> Feedback </a>
-                            </div>
-                            <div class="portfolio-item__text">
-                                 <b> Here you can leave your feedback  </b>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- // Darbas su partfolio -->
-
-                    <!-- Darbas su partfolio -->
-                    <div class="col-4-item" >
-                        <div class="portfolio-item">
-                            <div class="portfolio-item__img">
-                               
-                                    <img src="img/portfolio/portfolio1.jpg" alt="Blog" width="400" height="267" id="myDIV2"/>
-                            
-                            </div>
-                            <div class="portfolio-item__title">
-                                <a href="html/contact.html"> Contact </a>
-                            </div>
-                            <div class="portfolio-item__text">
-                                <b>  Contact Me  </b> 
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- // Darbas su partfolio -->
-                </div>
+   <head>
+      <meta charset="UTF-8" />
+      <!-- pateikia, generuoja, valdo puslapio matmenis ir mastelį.-->
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <title>КОСМОС</title>
+      <meta http-aquiv="X-UA-Compatible" content="IE=edge" />
+      <!-- Normalaizeris turi visada buti pajungtas pries kitus stilius ...
+         Standartizacija, bei normalizacija stiliu, tai reikalinga kad kiekvienas brauzeris atvaizduotu musu produkta(stilius) taip kaip reikiant
+         -->
+      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" />
+      <!-- Fono keitimas per https://fonts.google.com/  bei stiliu pridejimas-->
+      <link href="https://fonts.googleapis.com/css2?family=Vast+Shadow&display=swap" rel="stylesheetva" />
+      <link href='https://fonts.googleapis.com/css?family=Amethysta' rel='stylesheet' type='text/css'>
+      <link href='https://fonts.googleapis.com/css?family=Caesar+Dressing' rel='stylesheet' type='text/css'>
+      <!-- paprasta piktograma prie musu tinklapio -->
+      <link rel="shortcut icon" type="image/x-icon" href="img/favicon/favicon.ico" />
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous" />
+      <!-- CSS Bootstrap-->
+      
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+      <link rel="stylesheet" href="css/main.css" />
+      <link rel="stylesheet" href="css/footer.css" />
+      <link rel="stylesheet" href="css/menu.css" />
+      <style type="text/css">
+         #ad_panel, #footerBanner td, #ccpheader_leaderboard {
+         display:none !important;
+         }
+      </style>
+   </head>
+   <body>
+      <!--
+         Fullscreen Overlay Navigation Menu Bar
+         -->
+      <header>
+         <img src="img/logo/logo baseinas.png" class="logo" />
+         <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+         <nav >
+            <ul class="d-flex">
+               <li class="p-2 flex-fill"><a href="#">Home</a></li>
+               <li class="p-2 flex-fill"><a href="#">About</a></li>
+               <li class="p-2 flex-fill"><a href="#">Gallery</a></li>
+               <li class="p-2 flex-fill"><a href="#">Contact</a></li>
+            </ul>
+         </nav>
+         <label for="nav-toggle" class="nav-toggle-label">
+         <span></span>
+         </label>
+      </header>
+      <!--
+         HEADER
+         -->
+      <!-- cia bus foninis paveiksliukas -->
+      <div class="header" class="d-flex flex-wrap">
+         <img src="img/bg/bg-header.jpg" class="d-block h-100 w-100" alt="...">
+         <div class="header__title1">   <img src="img/text/KocMoc.gif" class="d-block w-100" alt="..."> </div>
+         <div class="header__citata1"></div>
+      </div>
+      <!--
+         PORTFOLIO
+         -->
+      <div class="portfolio" class="d-flex flex-wrap">
+         <div class="overlay"  class="rounded-pill"></div>
+         <div class="container">
+            <div class="title">
+               <b>Section</b>
             </div>
-        </div>
-
-        <!--
-                    FOOTER
--->
-        <!-- cia bus foninis paveiksliukas -->
-
-        <div class="footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-4">
-                        <p class="footer__name">Alaska2021</p>
-                    </div>
-                    <div class="col-4">
-                        <p class="footer__social__icons">
-                           КОСМОС
-                        </p>
-                    </div>
-                    <div class="col-4">
-                        <div><a href="html/contact.html" class="button" target="_blank">Contact Me</a></div>
-                    </div>
-                </div>
+            <div class="row-portfolio">
+               <div class="col-4-item">
+                  <div class="portfolio-item">
+                     <!-- vertikaliems tarpams-->
+                     <div class="container_Image"  class="rounded-pill">
+                        <div class="portfolio-item__img">
+                           <img src="img/portfolio/portfolio2.jpg" alt="About ME" width="400" height="267"  id="myDIV"  />
+                        </div>
+                     </div>
+                     <div class="portfolio-item__title">
+                        <a href="html/aboutme.html"> About me </a>
+                     </div>
+                     <div class="portfolio-item__text">
+                        <b> Short description about me </b>
+                     </div>
+                  </div>
+               </div>
+               <!-- Darbas su partfolio -->
+               <div class="col-4-item">
+                  <div class="portfolio-item">
+                     <div class="portfolio-item__img">
+                        <img src="img/portfolio/portfolio3.jpg" alt="Images" width="400" height="267"  id="myDIV1"/>
+                     </div>
+                     <div class="portfolio-item__title">
+                        <a href="html/feedback.html"> Feedback </a>
+                     </div>
+                     <div class="portfolio-item__text">
+                        <b> Here you can leave your feedback  </b>
+                     </div>
+                  </div>
+               </div>
+               <!-- // Darbas su partfolio -->
+               <!-- Darbas su partfolio -->
+               <div class="col-4-item" >
+                  <div class="portfolio-item">
+                     <div class="portfolio-item__img">
+                        <img src="img/portfolio/portfolio1.jpg" alt="Blog" width="400" height="267" id="myDIV2"/>
+                     </div>
+                     <div class="portfolio-item__title">
+                        <a href="html/contact.html"> Contact </a>
+                     </div>
+                     <div class="portfolio-item__text">
+                        <b>  Contact Me  </b> 
+                     </div>
+                  </div>
+               </div>
+               <!-- // Darbas su partfolio -->
             </div>
-        </div>
-
-        <!--Paveiksliuku pabaiga-->
-        <!-- jQuery and JS bundle w/ Popper.js -->
-
-
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
-</script>
-
-<script src="js/MainScript.js"></script>
-
-
-    </body>
+         </div>
+      </div>
+      <!--
+         FOOTER
+         -->
+      <!-- cia bus foninis paveiksliukas -->
+      <div class="footer">
+         <div class="container">
+            <div class="row">
+               <div class="col-4">
+                  <p class="footer__name">Alaska2021</p>
+               </div>
+               <div class="col-4">
+                  <p class="footer__social__icons">
+                     КОСМОС
+                  </p>
+               </div>
+               <div class="col-4">
+                  <div><a href="html/contact.html" class="button" target="_blank">Contact Me</a></div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!--Paveiksliuku pabaiga-->
+      <!-- jQuery and JS bundle w/ Popper.js -->
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+      <script src="js/MainScript.js"></script>
+   </body>
 </html>
